@@ -32,7 +32,7 @@ test('Practice locators2',async  ({page}) => {
     //await page.locator("//a", {hasText: "Sauce Labs Backpack"}).click()
     await page.locator(".inventory_item_name", {hasNotText: /Sauce./}).click()
 
-}) */
+}) 
 
 test('Practice of getby locators',async  ({ page }) => {
 
@@ -50,9 +50,9 @@ test('Practice of getby locators',async  ({ page }) => {
 
     await page.getByTestId("product-item-4").click()
 
-}) 
+}) */
 
-test('Practice of getby locators2',async  ({ page }) => {
+test('Practice of getby locators saucedemo',async  ({ page }) => {
 
     await page.goto('https://saucedemo.com')
     await page.getByTestId("username").fill("standard_user")

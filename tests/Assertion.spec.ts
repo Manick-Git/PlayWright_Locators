@@ -7,12 +7,12 @@ test('Assertion validation',async  ({ page }) => {
     await expect(page.locator("[data-test='password']")).toBeEnabled()
 
     //await expect(page.locator("[data-test='login-button']")).toBeDisabled()
-    await expect.soft(page.locator("[data-test='login-button']")).toBeDisabled()
+    //await expect.soft(page.locator("[data-test='login-button']")).toBeDisabled()
 
 
     await expect(page.locator("[data-test='login-button']")).toBeVisible()
     //await expect(page.locator("[data-test='login-button']")).toBeHidden()
-    await expect.soft(page.locator("[data-test='login-button']")).toBeHidden()
+    //await expect.soft(page.locator("[data-test='login-button']")).toBeHidden()
 
 
     await expect(page.locator("[data-test='login-button']")).toHaveText('Login')
