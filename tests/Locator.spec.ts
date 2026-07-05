@@ -52,7 +52,7 @@ test('Practice of getby locators',async  ({ page }) => {
 
 }) */
 
-test('Practice of getby locators saucedemo',async  ({ page }) => {
+test('Practice of getby locators',async  ({ page }) => {
 
     await page.goto('https://saucedemo.com')
     await page.getByTestId("username").fill("standard_user")
