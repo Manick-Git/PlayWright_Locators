@@ -29,7 +29,7 @@ test('Assertion validation',async  ({ page }) => {
 
     await expect(page).toHaveURL('https://www.saucedemo.com/')
 
-    //await expect(page, "Title not matching").not.toHaveTitle('Swag Labs')
+    await expect(page, "Title not matching").not.toHaveTitle('Swag Labs')
 
 
 
